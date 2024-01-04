@@ -1,0 +1,476 @@
+.website-contact-us-page-screen-responsive,
+.website-contact-us-page-screen-responsive * {
+  box-sizing: border-box;
+}
+.website-contact-us-page-screen-responsive {
+  background: #ffffff;
+  width: 1440px;
+  height: 2192px;
+  position: relative;
+  overflow: hidden;
+}
+.hero-image {
+  height: 990px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 60px;
+}
+.hero-image-overlay {
+  background: rgba(0, 0, 0, 0.5);
+  width: 1440px;
+  height: 731px;
+  position: absolute;
+  left: calc(50% - 720px);
+  top: 79px;
+}
+.hero-image-text {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  justify-content: flex-start;
+  height: 138px;
+  position: absolute;
+  right: 318px;
+  left: 319px;
+  top: 307px;
+}
+.contact-us {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+}
+.feel-free-to-reach-out-for-inquiries-assistance-or-any-questions-our-team-is-here-to-help {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  position: relative;
+  align-self: stretch;
+}
+.form-rectangle {
+  background: #ffffff;
+  height: 988px;
+  position: absolute;
+  right: -2px;
+  left: -2px;
+  top: 810px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  right: 7.43%;
+  left: 6.39%;
+  width: 86.18%;
+  top: 1073px;
+}
+.full-name {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  position: relative;
+  align-self: stretch;
+}
+.name-rectangle {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #7c7c7c;
+  border-width: 1px;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 60px;
+  position: relative;
+}
+.email {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  position: relative;
+  align-self: stretch;
+}
+.request-a-quote {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  position: relative;
+}
+.request-a-quote-rectangle {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #7c7c7c;
+  border-width: 1px;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 230px;
+  position: relative;
+}
+.form-button {
+  background: #009688;
+  border-radius: 10px;
+  padding: 8px 29px 8px 29px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  position: absolute;
+  right: 7.43%;
+  left: 73.26%;
+  width: 19.31%;
+  top: 1650px;
+}
+.Submit {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+}
+.form-text {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  right: 34.58%;
+  left: 28.4%;
+  width: 37.01%;
+  top: 860px;
+}
+.love-to-hear-from-you-contact-us {
+  color: #009688;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  position: relative;
+  flex: 1;
+}
+.footer-group {
+  position: absolute;
+  inset: 0;
+}
+.footer-section {
+  width: 1440px;
+  height: 425px;
+  position: static;
+}
+.end-ribbon {
+  background: #000000;
+  height: 56px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 2136px;
+}
+.end-ribbon-text {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  right: 35.35%;
+  left: 35.35%;
+  width: 29.31%;
+  top: 2142px;
+}
+._2023-your-website-all-rights-reserved {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+  flex: 1;
+}
+.footer-rectangle {
+  background: #009688;
+  height: 369px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 1767px;
+}
+.nav-link {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  right: 28.96%;
+  left: 59.51%;
+  width: 11.53%;
+  top: 1817px;
+}
+.navigation-links {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+  align-self: stretch;
+}
+.home-about-us-services-tutoring-subjects-contact-us {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 200%;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.social-media-link {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  right: 7.08%;
+  left: 80.35%;
+  width: 12.57%;
+  top: 1817px;
+}
+.social-media-links {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+  align-self: stretch;
+}
+.facebook-twitter-instagram-linked-in {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 200%;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  right: 43.54%;
+  left: 35.69%;
+  width: 20.76%;
+  top: 1817px;
+}
+.contact-information {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+  align-self: stretch;
+}
+.email-website-phone-no-address {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 200%;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.email-website-phone-no-address-span-1 {
+  color: #ffffff;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 200%;
+  font-weight: 400;
+}
+.email-website-phone-no-address-span-2 {
+  color: #ffffff;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 200%;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.email-website-phone-no-address-span-3 {
+  color: #ffffff;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 200%;
+  font-weight: 400;
+}
+.logo-copy-4-x-1 {
+  width: 379px;
+  height: 253px;
+  position: absolute;
+  left: 50px;
+  top: 1740px;
+}
+.header-group {
+  position: absolute;
+  inset: 0;
+}
+.header-section {
+  width: 1440px;
+  height: 73px;
+  position: static;
+}
+.header-rectangle {
+  background: #ffffff;
+  width: 1440px;
+  height: 73px;
+  position: absolute;
+  left: 0px;
+  top: 5px;
+}
+.menu {
+  width: 472px;
+  height: 24px;
+  position: static;
+}
+.home {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  left: calc(50% - 197px);
+  top: 29px;
+}
+.services {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  left: calc(50% - 102px);
+  top: 29px;
+}
+.about {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  left: calc(50% - -21px);
+  top: 29px;
+}
+.contact {
+  color: #009688;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  left: calc(50% - -197px);
+  top: 29px;
+}
+.policy {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  left: calc(50% - -119px);
+  top: 29px;
+}
+.login-group {
+  width: 255px;
+  height: 30px;
+  position: static;
+}
+.login {
+  width: 114px;
+  height: 30px;
+  position: static;
+}
+.login-rectangle {
+  background: #009688;
+  border-radius: 25px;
+  width: 114px;
+  height: 30px;
+  position: absolute;
+  right: 102px;
+  top: 26px;
+}
+.log-in {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  right: 129px;
+  top: 29px;
+}
+.signup-group{
+  width: 121px;
+  height: 30px;
+  position: static;
+}
+.signup {
+  width: 121px;
+  height: 30px;
+  position: static;
+}
+.signup-rectangle {
+  border-radius: 25px;
+  border-style: solid;
+  border-color: #009688;
+  border-width: 1px;
+  width: 121px;
+  height: 30px;
+  position: absolute;
+  right: 236px;
+  top: 26px;
+}
+.sign-up {
+  color: #009688;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  right: 260px;
+  top: 29px;
+}
+.logo-4-x-1 {
+  width: 128px;
+  height: 87.04px;
+  position: absolute;
+  left: 78px;
+  top: -8px;
+}
